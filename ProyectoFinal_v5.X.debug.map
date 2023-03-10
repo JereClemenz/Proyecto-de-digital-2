@@ -1,0 +1,114 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Mon Jun 13 21:21:00 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000002
+                   .org_2       code   0x000005    program   0x00028c
+.config_2007_BUILD/DEFAULT/DEBUG/PROYECTO.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/DEBUG/PROYECTO.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00014a      
+                            0x002007    0x002008      
+            332 out of 8455 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BOTONES   0x00009b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  BUCLER1   0x00008c    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  BUCLER2   0x00008a    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+         DESACTIVAR_BOMBA   0x00013c    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   ENDINT   0x000143    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+               FALTA_AGUA   0x00005b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  FUNCION   0x0000b8    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     H100   0x000119    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H20   0x0000fd    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H40   0x000104    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H60   0x00010b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H80   0x000112    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 HAY_AGUA   0x000066    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    INTER   0x000091    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 INTERADC   0x000135    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     LOOP   0x0000c1    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     MAIN   0x000005    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+          MOSTRAR_HUMEDAD   0x0000e6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+            MOSTRAR_NIVEL   0x00012f    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   NORMAL   0x0000a1    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   ON_OFF   0x0000c4    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   REBOTE   0x0000bf    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 REFRESCO   0x000032    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      RET   0x000059    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  RETARDO   0x000088    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+         RIEGO_AUTOMATICO   0x000071    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             RIEGO_MANUAL   0x00012f    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     SCAN   0x0000a6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    TABLA   0x0000ba    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  TECLADO   0x0000a9    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    TEMPO   0x000120    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             TEMPORIZADOR   0x000136    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+            TESTEAR_NIVEL   0x00004d    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0052   0x000052    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0076   0x000076    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_00EB   0x0000eb    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0132   0x000132    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   apagar   0x0000d6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 encender   0x0000c7    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x000005    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 REFRESCO   0x000032    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+            TESTEAR_NIVEL   0x00004d    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0052   0x000052    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      RET   0x000059    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+               FALTA_AGUA   0x00005b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 HAY_AGUA   0x000066    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+         RIEGO_AUTOMATICO   0x000071    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0076   0x000076    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  RETARDO   0x000088    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  BUCLER2   0x00008a    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  BUCLER1   0x00008c    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    INTER   0x000091    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  BOTONES   0x00009b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   NORMAL   0x0000a1    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     SCAN   0x0000a6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  TECLADO   0x0000a9    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                  FUNCION   0x0000b8    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    TABLA   0x0000ba    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   REBOTE   0x0000bf    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     LOOP   0x0000c1    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   ON_OFF   0x0000c4    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 encender   0x0000c7    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   apagar   0x0000d6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+          MOSTRAR_HUMEDAD   0x0000e6    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_00EB   0x0000eb    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H20   0x0000fd    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H40   0x000104    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H60   0x00010b    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                      H80   0x000112    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                     H100   0x000119    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                    TEMPO   0x000120    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             RIEGO_MANUAL   0x00012f    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+            MOSTRAR_NIVEL   0x00012f    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             _.org_2_0132   0x000132    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                 INTERADC   0x000135    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+             TEMPORIZADOR   0x000136    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+         DESACTIVAR_BOMBA   0x00013c    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+                   ENDINT   0x000143    program     static C:\Users\Jeremias\MPLABXProjects\ProyectoFinal_v5.X\Proyecto.asm
+
+
